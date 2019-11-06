@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF7A7BC62373811300630320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC52373811300630320 /* AppDelegate.swift */; };
+		FF7A7BC82373811300630320 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC72373811300630320 /* SceneDelegate.swift */; };
+		FF7A7BCA2373811300630320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC92373811300630320 /* ContentView.swift */; };
+		FF7A7BCC2373811700630320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A7BCB2373811700630320 /* Assets.xcassets */; };
+		FF7A7BCF2373811700630320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A7BCE2373811700630320 /* Preview Assets.xcassets */; };
+		FF7A7BD22373811700630320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7A7BD02373811700630320 /* LaunchScreen.storyboard */; };
+		FF7A7BDD2373811700630320 /* NewScoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BDC2373811700630320 /* NewScoutTests.swift */; };
+		FF7A7BE82373811700630320 /* NewScoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BE72373811700630320 /* NewScoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7A7BD92373811700630320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7A7BBA2373811300630320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7A7BC12373811300630320;
+			remoteInfo = NewScout;
+		};
+		FF7A7BE42373811700630320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7A7BBA2373811300630320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7A7BC12373811300630320;
+			remoteInfo = NewScout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7A7BC22373811300630320 /* NewScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7A7BC52373811300630320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF7A7BC72373811300630320 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF7A7BC92373811300630320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF7A7BCB2373811700630320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7A7BCE2373811700630320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF7A7BD12373811700630320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7A7BD32373811700630320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7A7BD82373811700630320 /* NewScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewScoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7A7BDC2373811700630320 /* NewScoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScoutTests.swift; sourceTree = "<group>"; };
+		FF7A7BDE2373811700630320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7A7BE32373811700630320 /* NewScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewScoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7A7BE72373811700630320 /* NewScoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScoutUITests.swift; sourceTree = "<group>"; };
+		FF7A7BE92373811700630320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7A7BBF2373811300630320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A7BD52373811700630320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A7BE02373811700630320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7A7BB92373811300630320 = {
+			isa = PBXGroup;
+			children = (
+				FF7A7BC42373811300630320 /* NewScout */,
+				FF7A7BDB2373811700630320 /* NewScoutTests */,
+				FF7A7BE62373811700630320 /* NewScoutUITests */,
+				FF7A7BC32373811300630320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7A7BC32373811300630320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A7BC22373811300630320 /* NewScout.app */,
+				FF7A7BD82373811700630320 /* NewScoutTests.xctest */,
+				FF7A7BE32373811700630320 /* NewScoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7A7BC42373811300630320 /* NewScout */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A7BC52373811300630320 /* AppDelegate.swift */,
+				FF7A7BC72373811300630320 /* SceneDelegate.swift */,
+				FF7A7BC92373811300630320 /* ContentView.swift */,
+				FF7A7BCB2373811700630320 /* Assets.xcassets */,
+				FF7A7BD02373811700630320 /* LaunchScreen.storyboard */,
+				FF7A7BD32373811700630320 /* Info.plist */,
+				FF7A7BCD2373811700630320 /* Preview Content */,
+			);
+			path = NewScout;
+			sourceTree = "<group>";
+		};
+		FF7A7BCD2373811700630320 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A7BCE2373811700630320 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF7A7BDB2373811700630320 /* NewScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A7BDC2373811700630320 /* NewScoutTests.swift */,
+				FF7A7BDE2373811700630320 /* Info.plist */,
+			);
+			path = NewScoutTests;
+			sourceTree = "<group>";
+		};
+		FF7A7BE62373811700630320 /* NewScoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A7BE72373811700630320 /* NewScoutUITests.swift */,
+				FF7A7BE92373811700630320 /* Info.plist */,
+			);
+			path = NewScoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7A7BC12373811300630320 /* NewScout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7A7BEC2373811700630320 /* Build configuration list for PBXNativeTarget "NewScout" */;
+			buildPhases = (
+				FF7A7BBE2373811300630320 /* Sources */,
+				FF7A7BBF2373811300630320 /* Frameworks */,
+				FF7A7BC02373811300630320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewScout;
+			productName = NewScout;
+			productReference = FF7A7BC22373811300630320 /* NewScout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7A7BD72373811700630320 /* NewScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7A7BEF2373811700630320 /* Build configuration list for PBXNativeTarget "NewScoutTests" */;
+			buildPhases = (
+				FF7A7BD42373811700630320 /* Sources */,
+				FF7A7BD52373811700630320 /* Frameworks */,
+				FF7A7BD62373811700630320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7A7BDA2373811700630320 /* PBXTargetDependency */,
+			);
+			name = NewScoutTests;
+			productName = NewScoutTests;
+			productReference = FF7A7BD82373811700630320 /* NewScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF7A7BE22373811700630320 /* NewScoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7A7BF22373811700630320 /* Build configuration list for PBXNativeTarget "NewScoutUITests" */;
+			buildPhases = (
+				FF7A7BDF2373811700630320 /* Sources */,
+				FF7A7BE02373811700630320 /* Frameworks */,
+				FF7A7BE12373811700630320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7A7BE52373811700630320 /* PBXTargetDependency */,
+			);
+			name = NewScoutUITests;
+			productName = NewScoutUITests;
+			productReference = FF7A7BE32373811700630320 /* NewScoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7A7BBA2373811300630320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Michael Schade";
+				TargetAttributes = {
+					FF7A7BC12373811300630320 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					FF7A7BD72373811700630320 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = FF7A7BC12373811300630320;
+					};
+					FF7A7BE22373811700630320 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = FF7A7BC12373811300630320;
+					};
+				};
+			};
+			buildConfigurationList = FF7A7BBD2373811300630320 /* Build configuration list for PBXProject "NewScout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7A7BB92373811300630320;
+			productRefGroup = FF7A7BC32373811300630320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7A7BC12373811300630320 /* NewScout */,
+				FF7A7BD72373811700630320 /* NewScoutTests */,
+				FF7A7BE22373811700630320 /* NewScoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7A7BC02373811300630320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A7BD22373811700630320 /* LaunchScreen.storyboard in Resources */,
+				FF7A7BCF2373811700630320 /* Preview Assets.xcassets in Resources */,
+				FF7A7BCC2373811700630320 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A7BD62373811700630320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A7BE12373811700630320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7A7BBE2373811300630320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A7BC62373811300630320 /* AppDelegate.swift in Sources */,
+				FF7A7BC82373811300630320 /* SceneDelegate.swift in Sources */,
+				FF7A7BCA2373811300630320 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A7BD42373811700630320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A7BDD2373811700630320 /* NewScoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A7BDF2373811700630320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A7BE82373811700630320 /* NewScoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7A7BDA2373811700630320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7A7BC12373811300630320 /* NewScout */;
+			targetProxy = FF7A7BD92373811700630320 /* PBXContainerItemProxy */;
+		};
+		FF7A7BE52373811700630320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7A7BC12373811300630320 /* NewScout */;
+			targetProxy = FF7A7BE42373811700630320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7A7BD02373811700630320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7A7BD12373811700630320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7A7BEA2373811700630320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF7A7BEB2373811700630320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7A7BED2373811700630320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewScout/Preview Content\"";
+				DEVELOPMENT_TEAM = BY2RP3GRWQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewScout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7A7BEE2373811700630320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewScout/Preview Content\"";
+				DEVELOPMENT_TEAM = BY2RP3GRWQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewScout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF7A7BF02373811700630320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2RP3GRWQ;
+				INFOPLIST_FILE = NewScoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewScout.app/NewScout";
+			};
+			name = Debug;
+		};
+		FF7A7BF12373811700630320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2RP3GRWQ;
+				INFOPLIST_FILE = NewScoutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewScout.app/NewScout";
+			};
+			name = Release;
+		};
+		FF7A7BF32373811700630320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2RP3GRWQ;
+				INFOPLIST_FILE = NewScoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewScout;
+			};
+			name = Debug;
+		};
+		FF7A7BF42373811700630320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2RP3GRWQ;
+				INFOPLIST_FILE = NewScoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewScout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7A7BBD2373811300630320 /* Build configuration list for PBXProject "NewScout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7A7BEA2373811700630320 /* Debug */,
+				FF7A7BEB2373811700630320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7A7BEC2373811700630320 /* Build configuration list for PBXNativeTarget "NewScout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7A7BED2373811700630320 /* Debug */,
+				FF7A7BEE2373811700630320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7A7BEF2373811700630320 /* Build configuration list for PBXNativeTarget "NewScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7A7BF02373811700630320 /* Debug */,
+				FF7A7BF12373811700630320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7A7BF22373811700630320 /* Build configuration list for PBXNativeTarget "NewScoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7A7BF32373811700630320 /* Debug */,
+				FF7A7BF42373811700630320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7A7BBA2373811300630320 /* Project object */;
+}
