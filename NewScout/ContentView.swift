@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import Combine
+
 
 
 struct team_color{
@@ -17,7 +17,47 @@ struct team_color{
     ]
 }
 
-struct ContentView: View {
+struct KeyboardHost<Content: View>: View{
+    let view: Content
+
+    @State private var keyboardHeight: CGFloat = 0
+
+    private let showPublisher = NotificationCenter.Publisher.init(
+        center: .default,
+        name: UIResponder.keyboardWillShowNotification
+    ).map { (notification) -> CGFloat in
+        if let rect = notification.userInfo?["UIKeyboardFrameEndUserInfoKey"] as? CGRect {
+            return rect.size.height
+        } else {
+            return 0
+        }
+    }
+
+    private let hidePublisher = NotificationCenter.Publisher.init(
+        center: .default,
+        name: UIResponder.keyboardWillHideNotification
+    ).map {_ -> CGFloat in 0}
+
+    // Like HStack or VStack, the only parameter is the view that this view should layout.
+    // (It takes one view rather than the multiple views that Stacks can take)
+    init(@ViewBuilder content: () -> Content) {
+        view = content()
+    }
+    
+    var body: some View {
+            VStack {
+                view
+                Rectangle()
+                    .frame(height: keyboardHeight)
+                    .animation(.default)
+                    .foregroundColor(.clear)
+            }.onReceive(showPublisher.merge(with: hidePublisher)) { (height) in
+                self.keyboardHeight = height
+            }
+        }
+    }
+
+struct ContentView: View{
     
     
     @State private var team_number = ""
@@ -29,12 +69,10 @@ struct ContentView: View {
     @State private var teammates1 = ""
     @State private var teammates2 = ""
     @State private var comments = ""
-
+    
     var body: some View {
-        
         NavigationView{
-            
-            
+        KeyboardHost {
             Form {
                 Section(header: Text("Match Info")){
                     TextField("Team #", text: $team_number).keyboardType(.numberPad)
@@ -63,6 +101,7 @@ struct ContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     TextField("Alliance Teammate #2:", text: $teammates2).keyboardType(.numberPad)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    
                   
                 }
                 Section(){
@@ -70,14 +109,14 @@ struct ContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
             
-        }.navigationBarTitle(Text("RICE 870 Scouting"))
+            }
+            }.navigationBarTitle(Text("RICE 870 Scouting"))
     }
+            
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-
-
 }
