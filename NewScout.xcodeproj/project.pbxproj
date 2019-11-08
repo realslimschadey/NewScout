@@ -12,7 +12,6 @@
 		FF7A7BCA2373811300630320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC92373811300630320 /* ContentView.swift */; };
 		FF7A7BCC2373811700630320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A7BCB2373811700630320 /* Assets.xcassets */; };
 		FF7A7BCF2373811700630320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A7BCE2373811700630320 /* Preview Assets.xcassets */; };
-		FF7A7BD22373811700630320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7A7BD02373811700630320 /* LaunchScreen.storyboard */; };
 		FF7A7BDD2373811700630320 /* NewScoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BDC2373811700630320 /* NewScoutTests.swift */; };
 		FF7A7BE82373811700630320 /* NewScoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BE72373811700630320 /* NewScoutUITests.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		FF7A7BC92373811300630320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF7A7BCB2373811700630320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7A7BCE2373811700630320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF7A7BD12373811700630320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7A7BD32373811700630320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7A7BD82373811700630320 /* NewScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewScoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7A7BDC2373811700630320 /* NewScoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScoutTests.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				FF7A7BC72373811300630320 /* SceneDelegate.swift */,
 				FF7A7BC92373811300630320 /* ContentView.swift */,
 				FF7A7BCB2373811700630320 /* Assets.xcassets */,
-				FF7A7BD02373811700630320 /* LaunchScreen.storyboard */,
 				FF7A7BD32373811700630320 /* Info.plist */,
 				FF7A7BCD2373811700630320 /* Preview Content */,
 			);
@@ -240,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7A7BD22373811700630320 /* LaunchScreen.storyboard in Resources */,
 				FF7A7BCF2373811700630320 /* Preview Assets.xcassets in Resources */,
 				FF7A7BCC2373811700630320 /* Assets.xcassets in Resources */,
 			);
@@ -303,17 +299,6 @@
 			targetProxy = FF7A7BE42373811700630320 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FF7A7BD02373811700630320 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF7A7BD12373811700630320 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF7A7BEA2373811700630320 /* Debug */ = {
