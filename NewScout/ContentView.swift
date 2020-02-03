@@ -108,10 +108,30 @@ struct ContentView: View{
                     TextField("Enter any comments:", text: $comments)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
-            
+                
+                NavigationLink(destination: Diff_Cards()) {
+                    Button("Next View"){
+
+                    }
+                }
+                
+                
+                
+                NavigationLink(destination: PitInterview()){
+                    Button("PitInterview"){
+                }
+                }
+                
+                NavigationLink(destination: MainView()){
+                    Button("MainView"){
+                }
+                }
             }
+            
             }.navigationBarTitle(Text("RICE 870 Scouting"))
-    }
+
+    }.navigationViewStyle(StackNavigationViewStyle())
+    .padding(0)
             
 }
 struct ContentView_Previews: PreviewProvider {

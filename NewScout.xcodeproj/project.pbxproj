@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF6E3A1123775FF700D60280 /* PitInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E3A1023775FF700D60280 /* PitInterview.swift */; };
+		FF6E3A1523776D1200D60280 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E3A1423776D1200D60280 /* CardView.swift */; };
+		FF6E3A1723776E2B00D60280 /* DJI_0047.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FF6E3A1623776E2B00D60280 /* DJI_0047.JPG */; };
+		FF6E3A1B2377A81700D60280 /* Diff_Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E3A1A2377A81700D60280 /* Diff_Cards.swift */; };
+		FF6E3A1D2377A93000D60280 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E3A1C2377A93000D60280 /* DetailsView.swift */; };
+		FF6E3A212377B10400D60280 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E3A202377B10400D60280 /* MainView.swift */; };
 		FF7A7BC62373811300630320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC52373811300630320 /* AppDelegate.swift */; };
 		FF7A7BC82373811300630320 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC72373811300630320 /* SceneDelegate.swift */; };
 		FF7A7BCA2373811300630320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A7BC92373811300630320 /* ContentView.swift */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF6E3A1023775FF700D60280 /* PitInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitInterview.swift; sourceTree = "<group>"; };
+		FF6E3A1423776D1200D60280 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FF6E3A1623776E2B00D60280 /* DJI_0047.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DJI_0047.JPG; sourceTree = "<group>"; };
+		FF6E3A1A2377A81700D60280 /* Diff_Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff_Cards.swift; sourceTree = "<group>"; };
+		FF6E3A1C2377A93000D60280 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		FF6E3A202377B10400D60280 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FF7A7BC22373811300630320 /* NewScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7A7BC52373811300630320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7A7BC72373811300630320 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,10 +109,16 @@
 		FF7A7BC42373811300630320 /* NewScout */ = {
 			isa = PBXGroup;
 			children = (
+				FF6E3A202377B10400D60280 /* MainView.swift */,
+				FF6E3A1C2377A93000D60280 /* DetailsView.swift */,
+				FF6E3A1A2377A81700D60280 /* Diff_Cards.swift */,
+				FF6E3A1423776D1200D60280 /* CardView.swift */,
+				FF6E3A1023775FF700D60280 /* PitInterview.swift */,
 				FF7A7BC52373811300630320 /* AppDelegate.swift */,
 				FF7A7BC72373811300630320 /* SceneDelegate.swift */,
 				FF7A7BC92373811300630320 /* ContentView.swift */,
 				FF7A7BCB2373811700630320 /* Assets.xcassets */,
+				FF6E3A1623776E2B00D60280 /* DJI_0047.JPG */,
 				FF7A7BD32373811700630320 /* Info.plist */,
 				FF7A7BCD2373811700630320 /* Preview Content */,
 			);
@@ -239,6 +257,7 @@
 			files = (
 				FF7A7BCF2373811700630320 /* Preview Assets.xcassets in Resources */,
 				FF7A7BCC2373811700630320 /* Assets.xcassets in Resources */,
+				FF6E3A1723776E2B00D60280 /* DJI_0047.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6E3A212377B10400D60280 /* MainView.swift in Sources */,
 				FF7A7BC62373811300630320 /* AppDelegate.swift in Sources */,
 				FF7A7BC82373811300630320 /* SceneDelegate.swift in Sources */,
 				FF7A7BCA2373811300630320 /* ContentView.swift in Sources */,
+				FF6E3A1123775FF700D60280 /* PitInterview.swift in Sources */,
+				FF6E3A1D2377A93000D60280 /* DetailsView.swift in Sources */,
+				FF6E3A1B2377A81700D60280 /* Diff_Cards.swift in Sources */,
+				FF6E3A1523776D1200D60280 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +448,12 @@
 				DEVELOPMENT_TEAM = BY2RP3GRWQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NewScout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -444,10 +470,12 @@
 				DEVELOPMENT_TEAM = BY2RP3GRWQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NewScout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = mschade.NewScout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
